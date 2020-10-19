@@ -6,7 +6,7 @@ Repo created for Radium Rocket problem week 3
 
 ---
 ## GitHub Pages
-https://nicolasandrescalvo.github.io/radium-problem-newspaper/
+- URL <https://nicolasandrescalvo.github.io/radium-problem-newspaper/>
 
 ---
 ## Contributors
