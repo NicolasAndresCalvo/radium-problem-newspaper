@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+:root{
+    --blue-color:#005689;
+    --white-color: white;
+    --black-color: #313337;
+    --yellow-color: yellow;
+    --space:10px;
+    --normal:12px;
+    --title:17px;
+     --box:0px 3px 6px #00000029;
+    
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+p, label{
+    font-size: var(--normal);
+}
+
+nav{
+    display: flex;
+    background-color: var(--blue-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
+
+nav ol{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--yellow-color);
+}
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    height: 95px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.product{
+    padding: var(--space);
+    margin-top: -240px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+
+.img_content{
+    text-align: center;
+}
+
+ .products h1{
+    font-size: var(--title);
+ }
+
+body > section > div > div > h3{
+    color: var(--black-color);
+    font-size: var(--title);
+    margin: 30px 0 16px 0;
+    text-align: center;
+    
+}
+
+body > section.description > div:nth-child(2){
+    margin: 0 180px;
+}
+
+.footer{
+    background-color: var(--black-color);
+    display: flex;
+    color: var(--white-color);
+    justify-content:space-between;
+    padding: 0 var(--space);
+    height: 60px;
+    align-items: center;
+}

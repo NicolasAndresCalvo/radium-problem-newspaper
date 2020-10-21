@@ -1,0 +1,26 @@
+@media (max-width:780px){
+  
+    
+
+    .products{
+        display: inherit;
+        height: auto;
+    }
+
+    .product{
+        margin-top: auto;
+    }
+
+    .main_section{
+        padding: 4%;
+    }
+
+    .description, .comments_container{
+        flex-flow: wrap;
+        margin-bottom: 10px;
+    }
+
+    .description_product, .comments_cards{
+        margin: 0 0 10px 0;
+    }
+}
