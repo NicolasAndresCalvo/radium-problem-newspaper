@@ -5,6 +5,7 @@
     --white-color: white;
     --black-color: #313337;
     --yellow-color: yellow;
+    --red-color:  #b20000;
     --space:10px;
     --normal:12px;
     --title:17px;
@@ -81,9 +82,20 @@ nav li a:hover{
     text-align: center;
 }
 
- .products h1{
+ .products h1 a{
     font-size: var(--title);
+    text-decoration: none;
  }
+
+ .products h1 a:hover{
+    font-size: var(--title);
+    text-decoration: none;
+    color: var(--red-color);
+ }
+ 
+ .p.products h1:hover{
+    color: var(--yellow-color);
+}
 
 body > section > div > div > h3{
     color: var(--black-color);
